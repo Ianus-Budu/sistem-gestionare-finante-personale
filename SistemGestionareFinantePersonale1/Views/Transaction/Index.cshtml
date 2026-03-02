@@ -1,0 +1,21 @@
+﻿@model IEnumerable<SistemGestionareFinantePersonale1.Models.Transaction>
+
+<h1>Tranzacții</h1>
+
+@if (!Model.Any())
+{
+    <h1>Transaction Controller funcționează</h1>
+}
+else
+{
+    <ul>
+        @foreach (var t in Model)
+        {
+            <li>
+                @t.Date.ToShortDateString() -
+                @t.Description -
+                @t.Amount lei
+            </li>
+        }
+    </ul>
+}
