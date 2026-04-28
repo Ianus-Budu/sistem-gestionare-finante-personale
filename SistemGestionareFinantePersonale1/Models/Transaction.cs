@@ -1,10 +1,11 @@
-﻿using SistemGestionareFinantePersonale1.Patterns.Prototype;
+﻿using SistemGestionareFinantePersonale1.Patterns.Flyweight;
+using SistemGestionareFinantePersonale1.Patterns.Prototype;
 
 namespace SistemGestionareFinantePersonale1.Models
 {
     public class Transaction : IPrototype<Transaction>
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
 
         public decimal Amount { get; set; }
 

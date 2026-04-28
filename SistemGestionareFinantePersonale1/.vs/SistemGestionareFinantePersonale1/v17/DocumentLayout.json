@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\singleton\\applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\singleton\\applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\prototype\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\prototype\\iprototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\builder\\transactiondirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\builder\\transactiondirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\flyweight\\categoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\flyweight\\categoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\builder\\transactionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\builder\\transactionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\flyweight\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\flyweight\\transactioncategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\patterns\\builder\\itransactionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:patterns\\builder\\itransactionbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|c:\\users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\sistemgestionarefinantepersonale1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF79E7D9-DD61-4702-ABD1-9B266B870DC2}|SistemGestionareFinantePersonale1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,29 +42,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationSettings.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Singleton\\ApplicationSettings.cs",
-              "RelativeDocumentMoniker": "Patterns\\Singleton\\ApplicationSettings.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Singleton\\ApplicationSettings.cs",
-              "RelativeToolTip": "Patterns\\Singleton\\ApplicationSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:27:27.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPrototype.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Prototype\\IPrototype.cs",
-              "RelativeDocumentMoniker": "Patterns\\Prototype\\IPrototype.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Prototype\\IPrototype.cs",
-              "RelativeToolTip": "Patterns\\Prototype\\IPrototype.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAABAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:26:29.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T09:44:29.344Z"
             },
             {
               "$type": "Document",
@@ -74,49 +60,58 @@
               "RelativeDocumentMoniker": "Models\\Transaction.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Models\\Transaction.cs",
               "RelativeToolTip": "Models\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:24:46.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T09:43:46.208Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TransactionDirector.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\TransactionDirector.cs",
-              "RelativeDocumentMoniker": "Patterns\\Builder\\TransactionDirector.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\TransactionDirector.cs",
-              "RelativeToolTip": "Patterns\\Builder\\TransactionDirector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "CategoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\FLYWEIGHT\\CategoryFactory.cs",
+              "RelativeDocumentMoniker": "Patterns\\FLYWEIGHT\\CategoryFactory.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\FLYWEIGHT\\CategoryFactory.cs",
+              "RelativeToolTip": "Patterns\\FLYWEIGHT\\CategoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:22:48.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T09:42:42.992Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "TransactionBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\TransactionBuilder.cs",
-              "RelativeDocumentMoniker": "Patterns\\Builder\\TransactionBuilder.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\TransactionBuilder.cs",
-              "RelativeToolTip": "Patterns\\Builder\\TransactionBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Title": "TransactionCategory.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\FLYWEIGHT\\TransactionCategory.cs",
+              "RelativeDocumentMoniker": "Patterns\\FLYWEIGHT\\TransactionCategory.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\FLYWEIGHT\\TransactionCategory.cs",
+              "RelativeToolTip": "Patterns\\FLYWEIGHT\\TransactionCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:21:59.02Z",
+              "WhenOpened": "2026-04-22T09:42:19.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAIAAAAA/f////8AwAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T07:34:49.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ITransactionBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\ITransactionBuilder.cs",
-              "RelativeDocumentMoniker": "Patterns\\Builder\\ITransactionBuilder.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Patterns\\Builder\\ITransactionBuilder.cs",
-              "RelativeToolTip": "Patterns\\Builder\\ITransactionBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T08:21:36.976Z",
-              "EditorCaption": ""
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-22T07:34:26.947Z"
             }
           ]
         }

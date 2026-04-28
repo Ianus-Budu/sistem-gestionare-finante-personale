@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\bin\Debug\net8.0\lab3.exe
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\bin\Debug\net8.0\lab3.deps.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\bin\Debug\net8.0\lab3.runtimeconfig.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\bin\Debug\net8.0\lab3.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\bin\Debug\net8.0\lab3.pdb
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.AssemblyInfo.cs
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.sourcelink.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\refint\lab3.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.pdb
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\lab3.genruntimeconfig.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\lab3\obj\Debug\net8.0\ref\lab3.dll

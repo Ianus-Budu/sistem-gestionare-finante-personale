@@ -1,4 +1,5 @@
-﻿public interface ITransactionBuilder
+﻿using SistemGestionareFinantePersonale1.Models;
+public interface ITransactionBuilder
 {
     ITransactionBuilder SetType(string type);
     ITransactionBuilder SetAmount(decimal amount);

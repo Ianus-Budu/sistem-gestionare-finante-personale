@@ -13,8 +13,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\wwwroot\\images\\photo-1633158829585-23ba8f7c8caf.avif",
+      "PackagePath": "staticwebassets\\images\\photo-1633158829585-23ba8f7c8caf.avif"
     },
     {
       "Id": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\source\\repos\\sistem-gestionare-finante-personale\\SistemGestionareFinantePersonale1\\wwwroot\\lib\\js\\site.js",
+      "PackagePath": "staticwebassets\\lib\\js\\site.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemGestionareFinantePersonale1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

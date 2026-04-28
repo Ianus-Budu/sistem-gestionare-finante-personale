@@ -1,13 +1,56 @@
-﻿@model IEnumerable<SistemGestionareFinantePersonale1.Models.Transaction>
+﻿@* @model IEnumerable<SistemGestionareFinantePersonale1.Models.Transaction> *@
+
+@* <h1>Tranzacții</h1> *@
+
+@* @if (!Model.Any()) *@
+@* { *@
+@*     <h1>Transaction Controller funcționează</h1> *@
+@* } *@
+@* else *@
+@* { *@
+@*     <ul> *@
+@*         @foreach (var t in Model) *@
+@*         { *@
+@*             <li> *@
+@*                 @t.Date.ToShortDateString() - *@
+@*                 @t.Description - *@
+@*                 @t.Amount lei *@
+@*             </li> *@
+@*         } *@
+@*     </ul> *@
+@* } *@
+
+@{
+    var income = Model.Where(t => t.Type == "Income").Sum(t => t.Amount);
+    var expense = Model.Where(t => t.Type == "Expense").Sum(t => t.Amount);
+    var total = income - expense;
+}
+@model IEnumerable<SistemGestionareFinantePersonale1.Models.Transaction>
 
 <h1>Tranzacții</h1>
 
-@if (!Model.Any())
-{
-    <h1>Transaction Controller funcționează</h1>
-}
-else
-{
+<h2>📊 Rezumat</h2>
+
+<div style="display:flex; gap:20px; margin-bottom:20px;">
+
+    <div style="background:#d4edda; padding:15px; border-radius:10px;">
+        Venituri: @income lei
+    </div>
+
+    <div style="background:#f8d7da; padding:15px; border-radius:10px;">
+        Cheltuieli: @expense lei
+    </div>
+
+    <div style="background:#d1ecf1; padding:15px; border-radius:10px;">
+        Total: @total lei
+    </div>
+
+</div>
+
+
+<a asp-action="Add">Add Transaction</a>
+
+
     <ul>
         @foreach (var t in Model)
         {
@@ -18,4 +61,3 @@ else
             </li>
         }
     </ul>
-}

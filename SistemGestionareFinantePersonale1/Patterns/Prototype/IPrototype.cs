@@ -1,4 +1,7 @@
-﻿public interface IPrototype<T>
+﻿namespace SistemGestionareFinantePersonale1.Patterns.Prototype
 {
-    T Clone();
+    public interface IPrototype<T>
+    {
+        T Clone();
+    }
 }

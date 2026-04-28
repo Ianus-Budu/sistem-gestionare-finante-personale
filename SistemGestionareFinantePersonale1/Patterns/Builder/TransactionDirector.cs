@@ -1,4 +1,5 @@
-﻿public class TransactionDirector
+﻿using SistemGestionareFinantePersonale1.Models;
+public class TransactionDirector
 {
     public Transaction CreateExpense(ITransactionBuilder builder)
     {

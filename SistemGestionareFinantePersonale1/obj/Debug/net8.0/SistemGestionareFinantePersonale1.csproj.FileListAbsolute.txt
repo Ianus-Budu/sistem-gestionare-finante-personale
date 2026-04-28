@@ -33,3 +33,4 @@ C:\Users\admin\source\repos\sistem-gestionare-finante-personale\SistemGestionare
 C:\Users\admin\source\repos\sistem-gestionare-finante-personale\SistemGestionareFinantePersonale1\obj\Debug\net8.0\SistemGestionareFinantePersonale1.pdb
 C:\Users\admin\source\repos\sistem-gestionare-finante-personale\SistemGestionareFinantePersonale1\obj\Debug\net8.0\SistemGestionareFinantePersonale1.genruntimeconfig.cache
 C:\Users\admin\source\repos\sistem-gestionare-finante-personale\SistemGestionareFinantePersonale1\obj\Debug\net8.0\ref\SistemGestionareFinantePersonale1.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\SistemGestionareFinantePersonale1\obj\Debug\net8.0\rpswa.dswa.cache.json
