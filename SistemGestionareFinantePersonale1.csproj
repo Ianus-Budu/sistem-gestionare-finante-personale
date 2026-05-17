@@ -18,6 +18,39 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="SistemGestionareFinantePersonale1\**\*.cs" />
+    <Content Remove="SistemGestionareFinantePersonale1\**\*" />
+    <EmbeddedResource Remove="SistemGestionareFinantePersonale1\**\*" />
+    <None Remove="SistemGestionareFinantePersonale1\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="**\obj\**\*.cs" />
+    <Compile Remove="**\bin\**\*.cs" />
+    <Compile Remove="lab3\**\*.cs" />
+    <Compile Remove="udpchat\**\*.cs" />
+    <Compile Remove="ConsoleApp1\**\*.cs" />
+
+    <Content Remove="**\obj\**\*" />
+    <Content Remove="**\bin\**\*" />
+    <Content Remove="lab3\**\*" />
+    <Content Remove="udpchat\**\*" />
+    <Content Remove="ConsoleApp1\**\*" />
+
+    <EmbeddedResource Remove="**\obj\**\*" />
+    <EmbeddedResource Remove="**\bin\**\*" />
+    <EmbeddedResource Remove="lab3\**\*" />
+    <EmbeddedResource Remove="udpchat\**\*" />
+    <EmbeddedResource Remove="ConsoleApp1\**\*" />
+
+    <None Remove="**\obj\**\*" />
+    <None Remove="**\bin\**\*" />
+    <None Remove="lab3\**\*" />
+    <None Remove="udpchat\**\*" />
+    <None Remove="ConsoleApp1\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 

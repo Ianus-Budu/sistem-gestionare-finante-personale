@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\bin\Debug\net8.0\udpchat.exe
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\bin\Debug\net8.0\udpchat.deps.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\bin\Debug\net8.0\udpchat.runtimeconfig.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\bin\Debug\net8.0\udpchat.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\bin\Debug\net8.0\udpchat.pdb
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.AssemblyInfo.cs
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.sourcelink.json
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\refint\udpchat.dll
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.pdb
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\udpchat.genruntimeconfig.cache
+C:\Users\admin\source\repos\sistem-gestionare-finante-personale\udpchat\obj\Debug\net8.0\ref\udpchat.dll

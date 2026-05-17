@@ -1,0 +1,49 @@
+﻿@* @{ *@
+@*     ViewData["Title"] = "Home Page"; *@
+@* } *@
+
+@* <div class="text-center"> *@
+@*     <h1 class="display-4">Welcome</h1> *@
+@*     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+@* </div> *@
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div style="text-align:center; margin-top:40px;">
+
+    <h1>💰 Gestionare Finanțe Personale</h1>
+    <p>Controlează veniturile și cheltuielile tale rapid și eficient</p>
+
+    <img src="/images/finance.jpg" width="350" style="border-radius:15px;" />
+
+    <br><br>
+
+    <a asp-controller="Transaction" asp-action="Index"
+       style="padding:12px 25px; background:blue; color:white; border-radius:8px; text-decoration:none;">
+        Vezi Tranzacții
+    </a>
+
+</div>
+
+<hr />
+
+<div style="display:flex; justify-content:center; gap:30px; margin-top:40px;">
+
+    <div style="background:#d4edda; padding:20px; border-radius:10px; width:200px;">
+        <h3>💵 Venituri</h3>
+        <p>Adaugă și gestionează veniturile tale</p>
+    </div>
+
+    <div style="background:#f8d7da; padding:20px; border-radius:10px; width:200px;">
+        <h3>💸 Cheltuieli</h3>
+        <p>Monitorizează cheltuielile zilnice</p>
+    </div>
+
+    <div style="background:#d1ecf1; padding:20px; border-radius:10px; width:200px;">
+        <h3>📊 Analiză</h3>
+        <p>Vezi statistici și totaluri</p>
+    </div>
+
+</div>
