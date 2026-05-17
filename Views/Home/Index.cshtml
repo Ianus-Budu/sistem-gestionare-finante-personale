@@ -1,0 +1,54 @@
+﻿@* @{ *@
+@*     ViewData["Title"] = "Home Page"; *@
+@* } *@
+
+@* <div class="text-center"> *@
+@*     <h1 class="display-4">Welcome</h1> *@
+@*     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+@* </div> *@
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="card card-soft overflow-hidden">
+    <div class="card-body p-4 p-md-5">
+        <div class="row align-items-center g-4">
+            <div class="col-md-7">
+                <h1 class="page-title mb-2">Gestionare Finanțe Personale</h1>
+                <p class="text-muted mb-4">Controlează veniturile și cheltuielile rapid, cu o imagine clară asupra totalului.</p>
+
+                <div class="d-flex gap-2">
+                    <a asp-controller="Transaction" asp-action="Index" class="btn btn-primary btn-lg">Tranzacții</a>
+                    <a asp-controller="Transaction" asp-action="UploadReceipt" class="btn btn-outline-secondary btn-lg">Bon fiscal (QR)</a>
+                </div>
+            </div>
+            <div class="col-md-5 text-md-end">
+                <img src="/images/finance.jpg" class="img-fluid rounded-4" style="max-height: 260px; object-fit: cover;" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3 mt-3">
+    <div class="col-md-4">
+        <div class="card stat-card p-3 h-100">
+            <div class="fw-semibold mb-1">Venituri</div>
+            <div class="text-muted">Adaugă și urmărește veniturile pe perioade.</div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card stat-card p-3 h-100">
+            <div class="fw-semibold mb-1">Cheltuieli</div>
+            <div class="text-muted">Monitorizează cheltuielile zilnice și recurente.</div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card stat-card p-3 h-100">
+            <div class="fw-semibold mb-1">Bon fiscal (QR)</div>
+            <div class="text-muted">Încarcă o poză și extrage rapid textul din QR.</div>
+        </div>
+    </div>
+</div>

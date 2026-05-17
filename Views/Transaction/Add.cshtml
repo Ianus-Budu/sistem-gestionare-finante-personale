@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Adaugă tranzacție";
+}
+
+<div class="page-header">
+    <div>
+        <h1 class="page-title">Adaugă tranzacție</h1>
+        <p class="text-muted mb-0">Completează tipul și suma.</p>
+    </div>
+    <a asp-action="Index" class="btn btn-outline-secondary">Înapoi</a>
+</div>
+
+<div class="card card-soft">
+    <div class="card-body">
+        <form asp-action="Add" method="post" class="row g-3">
+
+            <div class="col-md-4">
+                <label class="form-label">Tip</label>
+                <select class="form-select" name="type" required>
+                    <option value="Income" selected="@(ViewBag.Type == "Income")">Venit</option>
+                    <option value="Expense" selected="@(ViewBag.Type == "Expense")">Cheltuială</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Sumă (lei)</label>
+                <input class="form-control" type="number" name="amount" min="0.01" step="0.01" required />
+            </div>
+
+            <div class="col-md-4">
+                <label class="form-label">Categorie</label>
+                <input class="form-control" type="text" name="category" placeholder="ex: Mâncare, Transport" />
+            </div>
+
+            <div class="col-12">
+                <label class="form-label">Descriere</label>
+                <input class="form-control" type="text" name="description" placeholder="ex: Restaurant, Factură" />
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Salvează</button>
+            </div>
+
+        </form>
+    </div>
+</div>

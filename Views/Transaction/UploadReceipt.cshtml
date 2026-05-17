@@ -1,0 +1,84 @@
+@model SistemGestionareFinantePersonale1.Models.ReceiptUploadViewModel
+
+@{
+    ViewData["Title"] = "Bon fiscal (QR)";
+}
+
+<div class="page-header">
+    <div>
+        <h1 class="page-title">Bon fiscal</h1>
+        <p class="text-muted mb-0">Încarcă o poză cu QR-ul de pe bon pentru a extrage textul.</p>
+    </div>
+</div>
+
+<div class="card card-soft">
+    <div class="card-body">
+        <form asp-action="UploadReceipt" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label">Imagine bon (JPG/PNG)</label>
+                <input class="form-control" type="file" asp-for="Image" accept="image/*" />
+                <span class="text-danger" asp-validation-for="Image"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Citește QR</button>
+            <a asp-action="Index" class="btn btn-outline-secondary ms-2">Înapoi</a>
+        </form>
+
+        @if (!string.IsNullOrWhiteSpace(Model?.Error))
+        {
+            <div class="alert alert-danger mt-3">@Model.Error</div>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(Model?.State))
+        {
+            <div class="alert alert-info mt-3 mb-0">Stare: <strong>@Model.State</strong></div>
+        }
+
+        @if (!string.IsNullOrWhiteSpace(Model?.QrText))
+        {
+            <div class="alert alert-success mt-3">
+                <div class="fw-semibold mb-2">Text QR extras</div>
+                <textarea class="form-control" rows="6" readonly>@Model.QrText</textarea>
+                @if (!string.IsNullOrWhiteSpace(Model?.VisitorSummary))
+                {
+                    <div class="form-text mt-2">Visitor: @Model.VisitorSummary</div>
+                }
+                <div class="form-text mt-2">Pas următor: putem parsa acest text ca să completăm automat o tranzacție.</div>
+            </div>
+
+            <div class="card card-soft mt-3">
+                <div class="card-body">
+                    <div class="fw-semibold mb-2">Creează tranzacție din bon</div>
+                    <form asp-action="CreateFromReceipt" method="post" class="row g-3">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" asp-for="QrText" />
+                        <input type="hidden" asp-for="VisitorSummary" />
+
+                        <div class="col-md-4">
+                            <label class="form-label">Tip</label>
+                            <select class="form-select" asp-for="Type">
+                                <option value="Expense">Cheltuială</option>
+                                <option value="Income">Venit</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label class="form-label">Sumă (lei)</label>
+                            <input class="form-control" asp-for="Amount" type="number" min="0.01" step="0.01" required />
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Adaugă în tranzacții</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
